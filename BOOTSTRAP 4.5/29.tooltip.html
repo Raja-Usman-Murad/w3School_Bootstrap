@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tooltip</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid" style="background-color: cadetblue;">
+    <h1>TOOLTIP</h1>
+    <a href="#" data-toggle="tooltip" title="Hooray!">Hover over me</a>
+    
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();
+        });
+        </script><br>
+    <h1>TOP BOTTOM LEFT RIGHT</h1>
+    <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!">Top</a><br>
+    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Hooray!">Bottom</a><br>
+    <a href="#" data-toggle="tooltip" data-placement="left" title="Hooray!">Left</a><br>
+    <a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">Right</a><br>
+    
+    
+    
+    
+    
+    
+    </div>
+</body>
+</html>

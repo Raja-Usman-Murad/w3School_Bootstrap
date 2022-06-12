@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>progress bar</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: black;" >
+    <div class="container text-white" style="text-align: center;">
+        <h1>RAJA USMAN MURAD</h1>
+        <p>(MAKE DIFFERENT TYPES OF PROGRESS BAR USING BOOTSTRAP)</p>
+    </div>
+    <div class="container p-2" style="background-color: tomato;">
+
+        <h1>PROGRESS BAR</h1>
+        <p>MAKE CONTAINER CLASS PROGRESS THEN ADD CLASS PROGRESS BAR TO ITS CHILD ELEMENT THEN SET THE WIDTH</p>
+
+        <h2>WITH WIDTH</h2>
+        <p>30%</p>
+        <div class="progress">
+            <div class="progress-bar" style="width: 30%;"></div>
+        </div><br><p>60%</p>
+        <div class="progress">
+            <div class="progress-bar" style="width: 60%;"></div>
+        </div><br><p>90%</p>
+        <div class="progress">
+            <div class="progress-bar" style="width: 90%;"></div>
+        </div><br><p>100%</p>
+        <div class="progress">
+            <div class="progress-bar" style="width: 100%;"></div>
+        </div>
+
+
+        <h2>WITH HEIGHT</h2>
+        <p>30% 10px</p>
+        <div class="progress" style="height: 10px;">
+            <div class="progress-bar" style="width: 30%; height: 10px;"></div>
+        </div><br><p>60% 20px</p>
+        <div class="progress" style="height: 20px;">
+            <div class="progress-bar" style="width: 60%; height: 20px;"></div>
+        </div><br><p>90% 30px</p>
+        <div class="progress" style="height:30px">
+            <div class="progress-bar" style="width: 90%;height: 30px;"></div>
+        </div><br><p>100% 40px</p>
+        <div class="progress" style="height: 40px;">
+            <div class="progress-bar" style="width: 100%; height: 40px;"></div>
+        </div><br>
+        
+
+        <h2>INSIDE BAR SHOW PERCENT</h2>
+        <div class="progress" style="height: 30px;">
+            <div class="progress-bar" style="width: 30%; height: 30px;">30%</div>
+        </div><br>
+
+
+        <h2>DIFFERENT BACKGROUND COLORS</h2>
+        <div class="progress" style="height: 30px;">
+            <div class="progress-bar bg-danger" style="width: 30%; height: 30px;">30%</div></div><br>
+        <div class="progress" style="height: 30px;">
+            <div class="progress-bar bg-info" style="width: 30%; height: 30px;">30%</div></div><br>
+        <div class="progress" style="height: 30px;">
+            <div class="progress-bar bg-dark" style="width: 30%; height: 30px;">30%</div></div><br>
+
+        <h2>STRIPPED PROGRESS BAR</h2>
+        <div class="progress" style="height: 30px;">
+            <div class="progress-bar bg-danger progress-bar-striped" style="width: 80%; height: 30px;">30%</div></div><br>
+        <div class="progress" style="height: 30px;">
+            <div class="progress-bar bg-success progress-bar-striped" style="width: 98%; height: 30px;">98%</div></div><br>
+
+            <h2>ANIMATED PROGRESS BAR</h2>
+        <div class="progress" style="height: 30px;">
+            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 80%; height: 30px;">30%</div></div><br>
+        <div class="progress" style="height: 30px;">
+            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 98%; height: 30px;">98%</div></div><br>
+
+            <h2>MULTIPLE STACKED PROGRESS BAR</h2>
+            <div class="progress" style="height: 30px;">
+                <div class="progress-bar bg-success progress-bar-stripe progress-bar-animated" style="width: 40%;height: 30px;">FREESPACE</div>
+                <div class="progress-bar bg-warning progress-bar-stripe progress-bar-animated" style="width: 10%;height: 30px;">WARNING</div>
+                <div class="progress-bar bg-danger progress-bar-stripe progress-bar-animated" style="width: 20%;height: 30px;">DANGER</div>
+            </div>
+    </div>
+</body>
+</html>

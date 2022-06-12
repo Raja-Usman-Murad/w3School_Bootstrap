@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA OBJECTS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid" style="background-color: cornflowerblue;">
+    <h1>MEDIA OBJECTS</h1>
+    <p>Bootstrap provides an easy way to align media objects (like images or videos) together with content. Media objects are often used to display blog comments, tweets and so on:</p>
+    
+    <div class="media border p-3">
+        <img src="card7.jpg" alt="John Doe" class="mr-3 mt-1 rounded-circle" style="width:60px;">
+        <div class="media-body">
+          <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae ipsa quia laudantium vel voluptate ut ipsum sed, itaque, nobis quis culpa? Explicabo atque assumenda quisquam aliquid ducimus sit nemo dolorum?</p>
+        </div>
+    </div>
+    
+    <h1>Nested Media Objects</h1>
+    <p>Media objects can also be nested (a media object inside a media object):</p>
+    <div class="media border p-3">
+        <img src="card7.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+        <div class="media-body">
+          <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+          <p>Lorem ipsum...</p>
+          <div class="media p-3">
+            <img src="card6.jpg" alt="Jane Doe" class="mr-3 mt-3 rounded-circle" style="width:45px;">
+            <div class="media-body">
+              <h4>Jane Doe <small><i>Posted on February 20 2016</i></small></h4>
+              <p>Lorem ipsum...</p>
+            </div>
+          </div> 
+        </div>
+      </div>
+    
+    <h1>Right-Aligned Media Image</h1>
+    <p>To right-align the media image, add the image after the .media-body container:</p>
+    <div class="media border p-3">
+        <div class="media-body">
+          <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+          <p>Lorem ipsum...</p>
+        </div>
+        <img src="card3.jpg" alt="John Doe" class="ml-3 mt-3 rounded-circle" style="width:60px;">
+      </div>
+    
+      <h1>Top, Middle or Bottom Alignment</h1><p>Use the flex utilities, align-self-* classes to place the media object on the top, middle or at the bottom:</p>
+<!-- Media top -->
+<div class="media">
+    <img src="card5.png" class="align-self-start mr-3" style="width:60px">
+    <div class="media-body">
+      <h4>Media Top</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maiores, voluptas repellendus beatae dolor inventore quos distinctio corrupti exercitationem quo. Repellendus sed a voluptates illum nisi placeat. Neque, asperiores optio? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis quae, eveniet repellendus possimus voluptate itaque et sapiente praesentium fugit laborum deserunt tenetur voluptas ipsa adipisci sed ad nostrum natus exercitationem!</p>
+    </div>
+  </div>
+  
+  <!-- Media middle -->
+  <div class="media">
+    <img src="card5.png" class="align-self-center mr-3" style="width:60px">
+    <div class="media-body">
+      <h4>Media Middle</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maiores, voluptas repellendus beatae dolor inventore quos distinctio corrupti exercitationem quo. Repellendus sed a voluptates illum nisi placeat. Neque, asperiores optio? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis quae, eveniet repellendus possimus voluptate itaque et sapiente praesentium fugit laborum deserunt tenetur voluptas ipsa adipisci sed ad nostrum natus exercitationem!</p>
+    </div>
+  </div>
+  
+  <!-- Media bottom -->
+  <div class="media">
+    <img src="card5.png" class="align-self-end mr-3" style="width:60px">
+    <div class="media-body">
+      <h4>Media Bottom</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maiores, voluptas repellendus beatae dolor inventore quos distinctio corrupti exercitationem quo. Repellendus sed a voluptates illum nisi placeat. Neque, asperiores optio? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis quae, eveniet repellendus possimus voluptate itaque et sapiente praesentium fugit laborum deserunt tenetur voluptas ipsa adipisci sed ad nostrum natus exercitationem!</p>
+    </div>
+  </div>
+
+    </div>
+</body>
+</html>
